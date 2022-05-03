@@ -23,6 +23,7 @@
     "prefer-const": "off",
     "arrow-body-style": "off",
     "no-useless-return": "off",
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "class-methods-use-this": "off"
   }
 }

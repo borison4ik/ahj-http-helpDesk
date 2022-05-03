@@ -6,20 +6,71 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
   <title>HelpDesk</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
     <div id="app" class="app">
-      <div class="row right-align top__bar">
-        <a class="waves-effect waves-light btn"><i class="material-icons left">playlist_add</i>Add ticket</a>
+      <div class="top__bar">
+        <h1 class="app__title">Help DESK</h1>
+        <button class="btn" id="add__ticket">Add new Ticket</button>
       </div>
-      <ul class="tickets_list" id="tickets_list">
-        <li class="tickets__item" data-id="id">
-          <div class="tickets__item_status"></div>
-        </li>
-      </ul>
+      <div class="tickets__list">
+        <!-- <li class="ticket__item" data-id="1">
+          <label class="ticket__done">
+            <input type="checkbox">
+            <span class="done__icon"></span>
+          </label>
+          <div class="ticket__text">
+            <p class="text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Magnam quae beatae molestiae vitae alias itaque obcaecati
+            </p>
+            <p class="description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Magnam quae beatae molestiae vitae alias itaque obcaecati
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Omnis praesentium officia suscipit fuga quaerat vitae eum maxime, 
+              quidem dolorum dignissimos cumque cum natus fugiat at? 
+              Laborum beatae minus vero similique.
+            </p>
+          </div>
+          <div class="ticket__date">10.03.19 08:40</div>
+          <button class="ticket__edit control" type="button"><span class="hide">edit</span></button>
+          <button class="ticket__delete control" type="button"><span class="hide">delete</span></button>
+        </li> -->
+      </div>
     </div>
+  </div>
+  <!-- <div class="popup__wrapper" id="popup">
+    <div class="popup">
+      <h2 class="popup__title">Do you want to edit this ticket?</h2>
+      <div class="popup__body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Placeat, natus adipisci neque unde odit nam cupiditate accusantium voluptatem
+          animi maxime corrupti earum excepturi, quod eius ratione esse error, labore debitis?
+        </p>
+        <form class="popup__form">
+          <div class="popup__form_filed">
+            <input type="text" id="form__title">
+            <label for="form__title">Title</label>
+          </div>
+          <div class="popup__form_filed">
+            <input type="text" id="form__description">
+            <label for="form__description">Description</label>
+          </div>
+        </form>
+      </div>
+      <div class="popup__controls">
+        <button class="popup__cancel btn">Cancel</button>
+        <button class="popup__apply btn">OK</button>
+      </div>
+    </div>
+  </div> -->
+  <div class="notification">
+    This is ERROR!
   </div>
 </body>
 </html>
